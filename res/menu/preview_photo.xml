@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_save"
+        android:onClick="onSaveButton"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="Save"/>
+    <item
+        android:id="@+id/more"
+        android:icon="@android:drawable/ic_menu_more"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="More">
+        <menu>
+            <item
+                android:id="@+id/filter_none"
+                android:orderInCategory="50"
+                android:showAsAction="ifRoom"
+                android:title="Normal"/>
+            <item
+                android:id="@+id/filter_blur"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="Blur"/>     
+            <item
+                android:id="@+id/filter_grayscale"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="Grayscale"/>
+            <item
+                android:id="@+id/filter_crystallize"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="Crystal"/>
+            <item
+                android:id="@+id/filter_solarize"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="Solar"/>
+            <item
+                android:id="@+id/filter_glow"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="Glow"/>
+            
+        </menu>
+    </item>
+
+</menu>
